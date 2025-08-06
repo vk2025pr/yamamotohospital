@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山本誠鍼灸接骨院</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #e0f7e9;
+      --accent-color: #66bb6a;
+      --text-color: #333;
+      --bg-color: #fff;
+      --font-family: 'Noto Sans JP', sans-serif;
+      --base-font-size: 1.5em;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: var(--font-family);
+      line-height: 1.6;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      font-size: var(--base-font-size);
+    }
+    img, iframe {
+      max-width: 100%;
+      display: block;
+      border-radius: 4px;
+    }
+    header {
+      background-color: var(--primary-color);
+      padding: 2rem 2rem 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .hero {
+      padding: 4rem 2rem 2rem 2rem;
+      text-align: center;
+      background-color: var(--primary-color);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: var(--accent-color);
+      font-size: 1.5rem;
+    }
+    .info-list {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .info-list li {
+      margin-bottom: 0.5rem;
+      position: relative;
+      padding-left: 1.2em;
+    }
+    .info-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent-color);
+    }
+    .reserve-highlight {
+      background: #fffde7;
+      color: #d84315;
+      font-weight: bold;
+      padding: 0.2em 0.5em;
+      border-radius: 4px;
+      font-size: 1.2em;
+      display: inline-block;
+      margin-bottom: 0.5em;
+    }
+    footer {
+      background-color: #f4f4f4;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      header, section, footer {
+        padding: 1rem;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>山本誠鍼灸接骨院</h1>
+  </header>
+
+  <section id="top" class="hero">
+    <h1>体の不調を丁寧に施術します</h1>
+    <p>スポーツでの怪我も対応。お気軽にご相談ください。</p>
+  </section>
+
+  <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin: 2rem 0;">
+    <img src="images/IMG_0069.jpg" alt="院内写真1" style="max-width: 32%; min-width: 200px; border-radius: 8px;">
+    <img src="images/IMG_0070.jpg" alt="院内写真2" style="max-width: 32%; min-width: 200px; border-radius: 8px;">
+    <img src="images/IMG_0071.jpg" alt="院内写真3" style="max-width: 32%; min-width: 200px; border-radius: 8px;">
+  </div>
+
+  <section id="access">
+    <h2>アクセス</h2>
+    <ul class="info-list">
+      <li>住所：東京都杉並区上井草2-38-10</li>
+      <li>西武新宿線 上井草駅から 徒歩2分</li>
+      <li>荻窪駅からバスで上井草駅下車</li>
+      <li>石神井駅からバスで上井草駅下車</li>
+    </ul>
+    <div style="margin-top:1rem;">
+      <iframe
+        src="https://www.google.com/maps?q=東京都杉並区上井草2-38-10&output=embed"
+        width="100%" height="250" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <section id="fees">
+    <h2>料金・保険</h2>
+    <ul class="info-list">
+      <li>各種健康保険対応</li>
+      <li>自費診療あり</li>
+      <li>鍼灸・カイロプラクティックなどは別料金<br>（初回診療時にご相談ください）</li>
+    </ul>
+  </section>
+
+  <section id="hours">
+    <h2>営業時間・ご予約</h2>
+    <p>
+      <span class="reserve-highlight">
+        完全予約制（電話予約のみ）
+      </span>
+    </p>
+    <p><strong>03-3301-0995</strong></p>
+    <ul class="info-list">
+      <li>月～土: 9:00～13:00 / 15:30～20:30</li>
+      <li>日曜・祝日: 休診</li>
+    </ul>
+  </section>
+
+
+
+  <section id="recruit">
+    <h2>スタッフ募集</h2>
+    <p>あん摩、柔道整復師、鍼灸師などの資格をお持ちの方を募集しております。</p>
+    <p>詳細はお電話にてお問い合わせください。</p>
+    <p><strong>090-6310-8893</strong></p>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; <span id="year"></span> 山本誠鍼灸接骨院</p>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
+
